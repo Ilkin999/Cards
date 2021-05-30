@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+span{
+    width: 80%;
+    height: 3px;
+    background-color: #2980b9;
+    margin: 8px auto;
+}
+
+.about{
+    margin-top: 7px;
+    padding-bottom: 10px ;
+    font-size: 12px;
+    color: #687980;
+}
+
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.blog {
+    padding: 52px;
+    position: relative;
+}
+
+.container{
+    margin: 36px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-size: 32px;
+    letter-spacing: 2px;
+    color:#2980b9;
+}
+
+.info{
+    font-size: 18px;
+    color:#2980b9;
+}
+
+.card{
+    width: 240px;
+    margin: 20px 50px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #e1e5ea;
+}
+
+.studentPhotos{
+    width: 33%;
+    margin: -45px auto 10px ;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cityPhotos{
+    width: 100%;
+    height: 67%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.nextButton{
+    width: 50px;
+    height: 30px;
+    margin: auto 0;
+    border-radius: 3px;
+    color: #2980b9;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        margin: 36px auto;
+        display: grid;
+    }
+
+    .heading {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .info{
+        font-size: 12px;
+    }
+
+    .blog{
+        padding: 36px auto 12px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .nextButton{
+        display: none;
+    }
+}
